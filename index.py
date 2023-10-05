@@ -11,9 +11,9 @@ def feature():
     return render_template('feature.jinja.html')
 
 @app.route("/description")
-def feature():
+def description():
     return render_template('description.jinja.html')
 
 @app.route("/product")
-def feature():
+def product():
     return render_template('product.jinja.html')
